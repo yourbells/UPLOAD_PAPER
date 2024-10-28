@@ -1,5 +1,4 @@
 <?php
-// Auto-load semua class dari folder controller dan model
 spl_autoload_register(function ($class_name) {
     if (file_exists("controllers/$class_name.php")) {
         include "controllers/$class_name.php";
@@ -8,7 +7,6 @@ spl_autoload_register(function ($class_name) {
     }
 });
 
-// Jalankan controller upload
 $controller = new UploadController();
 $controller->index();
 ?>

@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Upload Full Paper</title>
     <style>
-        /* Gaya CSS sama dengan sebelumnya */
         body {
             font-family: Arial, sans-serif;
             text-align: center;
